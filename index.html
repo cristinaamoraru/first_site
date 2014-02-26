@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+
+
+      header {
+
+      background: url('https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc1/t31/882232_10151481219360971_1190897795_o.jpg');
+      background-size: cover;
+      color: white;
+    }
+
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 80px;
+    }
+    img {
+      margin: 40px 20px 0px 40px;
+      border: 7px solid black;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 10px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 24px;
+        padding: 0px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+
+  <title>Cristina Moraru</title>
+</head>
+<body>
+  <header>
+   <img src=https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/t1/1425657_10153415070115004_1462602100_n.jpg width=300 height=300 >
+    <h1>Cristina Moraru</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">CV</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>First Post</h2>
+    <p>Welcome to my personal website! This is my first attempt at html. Hope you enjoy it!</p>
+    <button>Like</button>
+  </article>
+  
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
