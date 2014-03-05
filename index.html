@@ -1,80 +1,129 @@
 <!DOCTYPE html>
 <head>
-  <link href="/normalize.css" rel="stylesheet">
-  <style>
-
-
-      header {
-
-      background: url('https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc1/t31/882232_10151481219360971_1190897795_o.jpg');
-      background-size: cover;
-      color: white;
-    }
-
-    a {
-      color: white;
-    }
-    h1 {
-      font-size: 80px;
-    }
-    img {
-      margin: 40px 20px 0px 40px;
-      border: 7px solid black;
-      border-radius: 20px;
-    }
-    ul {
-      padding: 10px;
-      background: rgba(0,0,0,0.5);
-    }
-    li {
-      display: inline;
-      padding: 10px 10px 0px 10px;
-    }
-    article {
-      max-width: 500px;
-      padding: 20px;
-      margin: 0 auto;
-    }
-    @media (max-width: 500px) {
-      h1 {
-        font-size: 24px;
-        padding: 0px;
-      }
-      li {
-        padding: 5px;
-        display: block;
-      }
-    }
-  </style>
-
   <title>Cristina Moraru</title>
+   <head>
+
+    <script type="text/javascript">
+function Buttonlink1()
+{
+window.location = "https://www.facebook.com/cris.moraru"
+}
+
+</script> 
+
+  <style>
+    body {
+      text-align: left;
+      background: url("http://74211.com/wallpaper/picture_big/Tiny-Pink-Flowers-Blooming-Beautiful-Colored-Flowers-on-Green-Background.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+
+    p{
+      font-size: 22px;
+    }
+
+
+
+    img{
+      border-radius: 10px;
+      box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.1);  
+      float: left;
+      padding:20px;
+    }
+
+    .text{
+position: relative;
+      left: 30px;
+
+    }
+.buttontext{
+  position: relative;
+      left: 30px;
+display: inline;
+}
+.button{
+background-color: #4868ac;
+  border-color: #314776;
+color: White;
+font-size: 20px ;
+position:relative;
+left: 40px;
+padding:10px;
+border-radius: 10px;
+
+
+}
+  input[type="submit"]{
+    background:#314776;
+    color:white;
+    position:relative;
+    border-radius: 20px;
+left: 40px;
+border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+
+    input[type="email"]{
+    
+    position:relative;
+left: 30px;
+border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    </style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48689018-1', 'moraru.co.uk');
+  ga('send', 'pageview');
+
+</script>
+
+
+
 </head>
+
+ 
 <body>
-  <header>
-   <img src=https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/t1/1425657_10153415070115004_1462602100_n.jpg width=300 height=300 >
-    <h1>Cristina Moraru</h1>
-    <ul>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">CV</a></li>
-    </ul>
-  </header>
 
- <article>
-    <h2>Second Post</h2>
-    <p>Modification to learn how to work in GitHub.</p>
-    <button>Like</button>
-  </article>
-  
 
-  <article>
-    <h2>First Post</h2>
-    <p>Welcome to my personal website! This is my first attempt at html. Hope you enjoy it!</p>
-    <button>Like</button>
-  </article>
-  
-  <script>
-    $("button").on("click", function() {
-      alert("Clicked!");
-    });
-  </script>
+  <img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc3/t1/35739_1543595749542_2701420_n.jpg?lvh=1">
+ 
+
+  <h1 class="text">Cristina Moraru</h1>
+
+
+<article>
+
+  <p class="text">Thank you Code First: Girls!  <br /> It's been fun! :)  </p>
+</article>
+<br>
+<p class="buttontext">My facebook page:</p>
+<button class="button" onclick="Buttonlink1();">Facebook</button>
+<br>
+<br>
+<br>
+
+
+
+
+<p class="text">Would you like to get notified <br> when I update the website? <br /><br /> Enter your e-mail! </p>
+
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+
+
+</form>
+
+
 </body>
+
